@@ -13,6 +13,7 @@ public class Appointment {
 	private String comment;
 	private Long userId;
 	private String userFullName;
+	private String adminUser;
 	
 	public static Appointment toModel(AppointmentEntity appointment) {
 		Appointment model = new Appointment();
